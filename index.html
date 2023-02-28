@@ -7,21 +7,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>project-1</title>
   <link rel="stylesheet" href="style.css">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
 
 <body>
+  <!-- ----------------------------------------header section------------------------ -->
   <header>
     <div class="logo">
-
       <div class="hamburger">
-        <img src="assets/mob-menu.png" alt="menu">
+        <img src="assets/mob-menu.png" alt="menu" />
       </div>
       <div class="limg">
-        <img src="assets/logo.png" alt="logo">
+        <img src="assets/logo.png" alt="logo" />
       </div>
 
     </div>
-
+    <!-- --------------------------------------nav bar-------------------------------- -->
     <nav class="navbar ">
       <ul>
         <li><a href="#" class="active"> Home</a></li>
@@ -31,123 +32,107 @@
       </ul>
     </nav>
   </header>
-  <div class="banner">
-    <img id="img1" src="assets/banner1.jpg" alt="banner1">
-    <div class="aside">
-      <img id="img2" src="assets/side-banner1.jpg" alt="side-banner1">
-      <img id="img3" src="assets/side-banner2.jpg" alt="side-banner2">
+  <main>
+    <!-- -------------------------------------banner section --------------------------- -->
+    <div class="banner">
+      <img id="img1" src="assets/banner1.jpg" alt="banner1" />
+      <div class="aside">
+        <img id="img2" src="assets/side-banner1.jpg" alt="side-banner1" />
+        <img id="img3" src="assets/side-banner2.jpg" alt="side-banner2" />
+      </div>
     </div>
-  </div>
-  <div class="titleBar">
-    <div class="barData">
-      <h1> Featured</h1>
+    <!-- -------------------------------------title bar----------------------------------- -->
+    <div class="titleBar">
+      <h1 class="bartext">Featured</h1>
     </div>
-  </div>
-
-  <div class="conteudo">
-
-    <div class="carrousel">
-
-      <article class="card">
-        <img src="assets/flower-1.jpg" alt="flower-1">
+    <!-- ---------------------------------------carrousel section------------------------- -->
+    <div class="conteudo carrousel">
+      <div class="card">
+        <img src="assets/flower-1.jpg" alt="flower-1" />
 
         <h3>Lorem ipsum</h3>
         <p>Lorem ipsum Lorem ipsum</p>
-      </article>
+      </div>
 
-      <article class="card">
+      <div class="card">
 
-        <img src="assets/flower-2.jpg" alt="flower-1">
+        <img src="assets/flower-2.jpg" alt="flower-2" />
 
         <h3>Lorem ipsum</h3>
         <p>Lorem ipsum Lorem ipsum</p>
-      </article>
+      </div>
 
-      <article class="card">
+      <div class="card">
 
-        <img src="assets/flower-3.jpg" alt="flower-1">
+        <img src="assets/flower-3.jpg" alt="flower-3" />
 
         <h3>Lorem ipsum</h3>
         <p>Lorem ipsum Lorem ipsum</p>
 
-      </article>
+      </div>
 
-      <article class="card"><img src="assets/flower-4.jpg" alt="flower-1">
-
-        <h3>Lorem ipsum</h3>
-        <p>Lorem ipsum Lorem ipsum</p>
-
-      </article>
-
-      <article class="card"> <img src="assets/flower-5.jpg" alt="flower-1">
+      <div class="card">
+        <img src="assets/flower-4.jpg" alt="flower-4" />
 
         <h3>Lorem ipsum</h3>
         <p>Lorem ipsum Lorem ipsum</p>
 
-      </article>
+      </div>
 
-      <article class="card"> <img src="assets/flower-6.jpg" alt="flower-1">
+      <div class="card">
+        <img src="assets/flower-5.jpg" alt="flower-5" />
 
         <h3>Lorem ipsum</h3>
         <p>Lorem ipsum Lorem ipsum</p>
 
-      </article>
+      </div>
 
+      <div class="card">
+        <img src="assets/flower-6.jpg" alt="flower-6" />
+
+        <h3>Lorem ipsum</h3>
+        <p>Lorem ipsum Lorem ipsum</p>
+
+      </div>
     </div>
 
-  </div>
-  </script>
-  </div>
-  <div class="articals">
-    <div class="artical">
-      <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis molestias deserunt qui ea dicta.
-        Veritatis laborum tempore, rerum quo hic sapiente iste, error accusantium facilis consectetur
-        nostrum
-        eos nulla deserunt blanditiis incidunt ut molestiae ducimus doloribus. Molestiae laudantium quos
-        excepturi maxime dolorum at quidem itaque in aut nisi voluptas ab neque sit dolore corporis
-        distinctio,
-        ipsum officia ipsa aliquam. Neque repellat debitis omnis nostrum eos atque aut tempora sunt
-        necessitatibus ea! Asperiores impedit, ratione facere eveniet, ullam illum, similique distinctio
-        sequi
-        quam molestiae itaque esse quaerat excepturi. Voluptate, fuga magnam quisquam molestiae natus quas
-        facere repellat laudantium quam quis dicta?</p>
-    </div>
-    <div class="artical">
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis molestias deserunt qui ea dicta.
-        Veritatis laborum tempore, rerum quo hic sapiente iste, error accusantium facilis consectetur
-        nostrum
-        eos nulla deserunt blanditiis incidunt ut molestiae ducimus doloribus. Molestiae laudantium quos
-        excepturi maxime dolorum at quidem itaque in aut nisi voluptas ab neque sit dolore corporis
-        distinctio,
-        ipsum officia ipsa aliquam. Neque repellat debitis omnis nostrum eos atque aut tempora sunt
-        necessitatibus ea! Asperiores impedit, ratione facere eveniet, ullam illum, similique distinctio
-        sequi
-        quam molestiae itaque esse quaerat excepturi. Voluptate, fuga magnam quisquam molestiae natus quas
-        facere repellat laudantium quam quis dicta?</p>
-    </div>
-  </div>
-  <script>
-    hamburger = document.querySelector(".hamburger");
-    hamburger.onclick = function () {
-      navBar = document.querySelector(".navbar");
-      navBar.classList.toggle("active");
-    }
-  </script>
+    <!-- ------------------------------------------articat section -------------------------------------- -->
+    <article class="articals">
 
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla varius elit gravida varius mollis. Proin porta
+        fermentum nisl, quis feugiat sem dignissim a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut
+        nulla aliquet, viverra lorem a, vulputate ipsum. Nam hendrerit vestibulum massa,id sollicitudin arcu com-modo a.
+        Mauris pretium tellus vel justo ultrices, vel condimentum neque dictum. Nullam vitae condimentum dui.</p>
+
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla varius elit gravida varius mollis. Proin porta
+        fermentum nisl, quis feugiat sem dignissim a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut
+        nulla aliquet, viverra lorem a, vulputate ipsum. Nam hendrerit vestibulum massa,id sollicitudin arcu com-modo a.
+        Mauris pretium tellus vel justo ultrices, vel condimentum neque dictum. Nullam vitae condimentum dui.</p>
+
+    </article>
+    <!-- --------------------------------------------script------------------------------------------------ -->
+    <script>
+      hamburger = document.querySelector(".hamburger");
+      hamburger.onclick = function () {
+        navBar = document.querySelector(".navbar");
+        navBar.classList.toggle("active");
+      }
+    </script>
+  </main>
+  <!-- -----------------------------------------------footer section--------------------------------------- -->
   <footer>
-    <div class="contact">
-      <h3 class="hcontact">Contact us</h3>
-      <div class="fimg">
-        <img src="assets/fb.png" alt="fb">
-        <img src="assets/google-plus.png" alt="google">
-        <img src="assets/twitter.png" alt="twitter">
-        <img src="assets/skype.png" alt="skype">
-      </div>
-      <div class="copyright">
-        <p> Copyright <span>Petals</span> 2019</p>
-      </div>
+    <h3 class="hcontact">Contact us</h3>
+    <div class="fimg">
+      <img src="assets/fb.png" alt="face book" />
+      <img src="assets/google-plus.png" alt="google" />
+      <img src="assets/twitter.png" alt="twitter" />
+      <img src="assets/skype.png" alt="skype" />
     </div>
+    <span> Copyright <span>Petals</span> 2019</span>
+
   </footer>
+
 </body>
 
 </html>
