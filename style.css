@@ -162,6 +162,7 @@
   font-size: 2.25vw;
   align-items: center;
 }
+
 /*-------------------------------- cards carousel -----------------------------------*/
 
 .conteudo {
@@ -308,6 +309,7 @@ footer .fimg {
     height: 6vw;
     font-size: 3.375vw;
   }
+
   .banner {
     margin-left: 2.6vw;
     margin-right: 2.3vw;
@@ -328,6 +330,7 @@ footer .fimg {
   .card p {
     font-size: 2vw;
   }
+
   .logo .limg img {
     height: 7.5vw;
   }
