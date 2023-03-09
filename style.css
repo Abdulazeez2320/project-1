@@ -2,7 +2,7 @@
   font-family: 'Poppins', sans-serif;
   padding: 0%;
   margin: 0%;
- 
+
 
 }
 
@@ -14,14 +14,15 @@
 }
 
 .logo {
-  
-  width: 100vw  ;
+
+  width: 100vw;
 }
-.logo .limg img{
+
+.logo .limg img {
   height: 5vw;
   /* aspect-ratio:auto; */
 }
- 
+
 /*-----------------------------------------latop nav bar----------------------------*/
 .navbar ul {
   display: flex;
@@ -43,6 +44,7 @@
   display: flex;
   padding: 2% 5%;
 }
+
 /*-----------------------------------------hamburger--------------------------------*/
 @media only screen and (min-width:601px) {
   .hamburger img {
@@ -56,23 +58,25 @@
     position: absolute;
 
   }
-  .hamburger img{
+
+  .hamburger img {
     margin-top: 4vw;
     margin-left: 2.8334vw;
-   
+
   }
-  @media screen and (max-width:470px){
-    .hamburger img{
+
+  @media screen and (max-width:470px) {
+    .hamburger img {
       margin-left: 4.25vw;
-     
+
     }
   }
 
   .logo .limg {
     margin: 2.5% 1%;
-    
+
   }
-  
+
   .navbar {
     height: 0;
     position: absolute;
@@ -117,7 +121,7 @@
   display: flex;
   flex-wrap: nowrap;
   margin-left: 1.75vw;
-    margin-right: 1.33vw;
+  margin-right: 1.33vw;
 }
 
 #img1 {
@@ -136,14 +140,14 @@
   display: flex;
   height: 100%;
   width: 97%;
-  padding: 1%;
+  padding: 0.5vw;
 }
 
 #img3 {
   display: flex;
   height: 100%;
   width: 97%;
-  padding: 1%;
+  padding: 0.5vw;
 }
 
 /*--------------------------------------title bar-----------------------------------*/
@@ -152,20 +156,12 @@
   background-color: rgb(216, 79, 79);
   height: 5vw;
   justify-content: center;
-  margin: 2vw 2.125vw; 
-  
-  
-  
-}
-
-.titleBar .bartext {
-  margin: .75vw;
+  margin: 2vw 2.125vw;
   color: rgb(255, 255, 255);
   font-weight: bold;
   font-size: 2.25vw;
-
+  align-items: center;
 }
-
 /*-------------------------------- cards carousel -----------------------------------*/
 
 .conteudo {
@@ -204,16 +200,19 @@
   gap: 1vw;
   margin: 0vw 1.0625vw;
 }
-.card img{
+
+.card img {
   border-radius: 100%;
   width: 80%;
   margin: 0%;
 }
-.card h3{
+
+.card h3 {
   margin-top: 1vw;
   font-size: 1.75vw;
 }
-.card p{
+
+.card p {
   font-size: 1.25vw;
 }
 
@@ -223,19 +222,22 @@
   margin-left: 1.5rem;
   margin-top: 4rem;
 }
+
 .articals {
-  
+
   display: flex;
   justify-content: center;
   gap: 2rem;
-  margin:7vw 2.125vw;
-  
+  margin: 7vw 2.125vw;
+
 }
+
 .articals p {
   line-height: 2;
   text-align: center;
   font-size: 1.25vw;
 }
+
 @media screen and (max-width:480px) {
   .articals {
     display: flex;
@@ -264,139 +266,187 @@ footer span {
   margin-bottom: .5em;
   font-size: 1.25vw;
 }
-footer h3{
+
+footer h3 {
   font-size: 2vw;
 }
 
 footer span span {
   color: yellow;
-  
+
 }
+
+footer .fimg a img {
+  inline-size: 2vw;
+}
+
+footer .fimg {
+  display: flex;
+  align-items: center;
+  gap: 1.25vw;
+}
+
 /*-------------------------------responsive--------------------------------------*/
 
-@media screen and (max-width:800px){
+@media screen and (max-width:800px) {
   .card {
     min-width: 45.75vw;
     margin: 0vw 1.41667vw;
   }
+
   .conteudo {
     width: 97.1667vw;
     margin: 5vw 1.41667vw;
   }
+
   .articals {
-    margin:7vw 2.8334vw;
+    margin: 7vw 2.8334vw;
   }
+
   .titleBar {
     margin: 2vw 2.8334vw;
     height: 6vw;
-  }
-  .titleBar .bartext{
-    font-size: 3vw;
+    font-size: 3.375vw;
   }
   .banner {
     margin-left: 2.6vw;
     margin-right: 2.3vw;
   }
+
   footer span {
     font-size: 2vw;
   }
+
   .articals p {
-    font-size:2vw;
-  }
-  .card h3{
-    font-size: 2.75vw;
-  }
-  .card p{
     font-size: 2vw;
   }
-  .titleBar .bartext {
-    font-size: 3.375vw;
-  
+
+  .card h3 {
+    font-size: 2.75vw;
   }
-  .logo .limg img{
+
+  .card p {
+    font-size: 2vw;
+  }
+  .logo .limg img {
     height: 7.5vw;
   }
+
   .navbar ul li a {
     font-size: 2.25vw;
   }
-  .card img{
+
+  .card img {
     border-radius: 100%;
     width: 70%;
     margin: 0%;
   }
-  footer h3{
+
+  footer h3 {
     font-size: 2.75vw;
   }
-  
 
-  
+  footer .fimg a img {
+    inline-size: 2.75vw;
+  }
+
+  footer .fimg {
+    display: flex;
+    align-items: center;
+    gap: 1.75vw;
+  }
+
+
+
 }
-@media screen and (max-width:470px){
+
+@media screen and (max-width:470px) {
   .card {
     min-width: 91.5vw;
-    margin:0vw 2.125vw
+    margin: 0vw 2.125vw
   }
+
   .conteudo {
-    width:95.75vw;
+    width: 95.75vw;
     margin: 5vw 2.125vw;
   }
+
   .articals {
-    margin:7vw 4.25vw;
+    margin: 7vw 4.25vw;
   }
+
   .titleBar {
     margin: 2vw 4.25vw;
     height: 7.5vw;
+    font-size: 4.25vw;
+    /* font-size: 3.25vw; */
   }
-  .titleBar .bartext{
-    font-size: 2.5vw;
-  }
+
+
   .banner {
     margin-left: 4.25vw;
     margin-right: 3.7vw;
   }
 
-footer span {
-  font-size: 3.5vw;
-}
-footer h3{
-  font-size: 4vw;
-}
-.articals p {
-  font-size:3.5vw;
-}
-.card h3{
-  font-size: 4vw;
-}
-.card p{
-  font-size: 3vw;
-}
-.titleBar .bartext {
-  font-size: 4.5vw;
-
-}
-.logo .limg img{
-  height: 10vw;
-}
-.navbar ul li a {
-  font-size: 2.5vw;
-}
-.card img{
-  border-radius: 100%;
-  width: 65%;
-  margin: 0%;
-}
-}
- @media screen and (min-width:1418px){
-  
-  .banner{
-    width: 96.75vw;
-  }.titleBar{
-    width: 95.75vw;
+  footer span {
+    font-size: 3.5vw;
   }
-  body{
+
+  footer h3 {
+    font-size: 4vw;
+  }
+
+  .articals p {
+    font-size: 3.5vw;
+  }
+
+  .card h3 {
+    font-size: 4vw;
+  }
+
+  .card p {
+    font-size: 3vw;
+  }
+
+
+  .logo .limg img {
+    height: 10vw;
+  }
+
+  .navbar ul li a {
+    font-size: 2.5vw;
+  }
+
+  .card img {
+    border-radius: 100%;
+    width: 65%;
+    margin: 0%;
+  }
+
+  footer .fimg a img {
+    inline-size: 4.25vw;
+  }
+
+  footer .fimg {
+    display: flex;
+    align-items: center;
+    gap: 2.25vw;
+  }
+}
+
+@media screen and (min-width:1418px) {
+
+  .banner {
+    width: 96.75vw;
+  }
+
+  .titleBar {
+    width: 96vw;
+    margin-left: 2vw;
+  }
+
+  body {
     align-self: center;
     overflow-x: hidden;
   }
-} 
-
-
+}
